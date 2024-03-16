@@ -53,8 +53,8 @@ const Header = () => {
                     <h1 className="text-xl lg:text-5xl font-bold relative z-10">Uncover Culinary Mastery Your Personalized Cooking Journey Begins Here!</h1>
                     <p className="relative z-10">Elevate your culinary skills with our personalized cooking classes! Explore flavors, techniques, and create unforgettable dishes tailored just for you.</p>
                     <div className="relative z-10 flex flex-col lg:flex-row gap-10 text-lg">
-                        <button className=" w-44 h-16 bg-[#0BE58A] text-black font-bold rounded-[50px]">Explore Now</button>
-                        <button className=" w-44 h-16 bg-transparent rounded-[50px] border-white border">Our Feedback</button>
+                        <button className=" w-44 h-16 bg-[#0BE58A] text-black font-bold rounded-2xl">Explore Now</button>
+                        <button className=" w-44 h-16 bg-transparent rounded-2xl border-white border">Our Feedback</button>
                     </div>
                 </div>
             </section>

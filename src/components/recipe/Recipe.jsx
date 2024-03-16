@@ -35,7 +35,7 @@ const Recipe = ({ recipe, handleWantCook }) => {
                     {calories} calories
                 </div>
             </div>
-            <button onClick={()=>handleWantCook(recipe)} className=" w-44 h-14 bg-[#0BE58A] text-black font-bold rounded-[50px]">Want to Cook</button>
+            <button onClick={()=>handleWantCook(recipe)} className=" w-44 h-14 bg-[#0BE58A] text-black font-bold rounded-2xl">Want to Cook</button>
         </div>
     );
 };
