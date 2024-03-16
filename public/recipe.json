@@ -30,7 +30,7 @@
   {
     "recipe_image": "https://s9.gifyu.com/images/SUUe0.jpg",
     "recipe_id": 3,
-    "recipe_name": "Classic Spaghetti Bolognese",
+    "recipe_name": "Spaghetti Bolognese",
     "short_description": "An authentic Italian pasta dish with rich meat sauce and al dente spaghetti.",
     "ingredients": [
       "400 g spaghetti",
@@ -58,7 +58,7 @@
   {
     "recipe_image": "https://s9.gifyu.com/images/SUUej.jpg",
     "recipe_id": 5,
-    "recipe_name": "Grilled Salmon with Lemon Herb Butter",
+    "recipe_name": "Grilled Salmon",
     "short_description": "Deliciously tender grilled salmon fillets topped with zesty lemon herb butter.",
     "ingredients": [
       "4 salmon fillets",
@@ -72,7 +72,7 @@
   {
     "recipe_image": "https://s9.gifyu.com/images/SUUeR.jpg",
     "recipe_id": 6,
-    "recipe_name": "Decadent Chocolate Cake",
+    "recipe_name": "Chocolate Cake",
     "short_description": "Indulge in this rich and moist chocolate cake that melts in your mouth.",
     "ingredients": [
       "200 g flour",

@@ -1,7 +1,7 @@
 const CurrentlyCooking = ({ currentlyCooking, totalTime, totalCalories }) => {
 
     return (
-        <div className=" space-y-5">
+        <div className=" space-y-5 mt-10">
             <h1 className=" text-2xl text-center font-bold">Want to cook: {currentlyCooking.length}</h1>
             <hr />
             <table className=' w-full'>
@@ -21,13 +21,13 @@ const CurrentlyCooking = ({ currentlyCooking, totalTime, totalCalories }) => {
                         </tr>
                     )
                 }
-                <tr>
+                <tr className=" font-bold">
                     <td></td>
                     <td></td>
-                    <td>Total Time = </td>
-                    <td>Total Calories = </td>
+                    <td>Total Time:</td>
+                    <td>Total Calories:</td>
                 </tr>
-                <tr>
+                <tr className=" font-bold">
                     <td></td>
                     <td></td>
                     <td>{totalTime} minutes</td>
