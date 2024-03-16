@@ -1,0 +1,86 @@
+[
+  {
+    "recipe_image": "https://s9.gifyu.com/images/SUUei.jpg",
+    "recipe_id": 1,
+    "recipe_name": "Spicy Chicken Curry",
+    "short_description": "A flavorful and aromatic chicken curry that will tantalize your taste buds.",
+    "ingredients": [
+      "550 g chicken",
+      "120 ml soy sauce",
+      "200 g basil leaves",
+      "400 g mushroom"
+    ],
+    "preparing_time": "45 min",
+    "calories": "380 calories"
+  },
+  {
+    "recipe_image": "https://s9.gifyu.com/images/SUUeC.jpg",
+    "recipe_id": 2,
+    "recipe_name": "Vegetable Stir Fry",
+    "short_description": "A quick and healthy stir-fry loaded with colorful vegetables.",
+    "ingredients": [
+      "300 g broccoli",
+      "200 g carrots",
+      "150 g bell peppers",
+      "100 g snap peas"
+    ],
+    "preparing_time": "20 min",
+    "calories": "250 calories"
+  },
+  {
+    "recipe_image": "https://s9.gifyu.com/images/SUUe0.jpg",
+    "recipe_id": 3,
+    "recipe_name": "Classic Spaghetti Bolognese",
+    "short_description": "An authentic Italian pasta dish with rich meat sauce and al dente spaghetti.",
+    "ingredients": [
+      "400 g spaghetti",
+      "500 g ground beef",
+      "200 g canned tomatoes",
+      "100 g onion"
+    ],
+    "preparing_time": "60 min",
+    "calories": "450 calories"
+  },
+  {
+    "recipe_image": "https://s9.gifyu.com/images/SUUe8.jpg",
+    "recipe_id": 4,
+    "recipe_name": "Avocado Salad",
+    "short_description": "A refreshing salad packed with creamy avocados and crisp vegetables.",
+    "ingredients": [
+      "2 avocados",
+      "150 g cherry tomatoes",
+      "100 g cucumber",
+      "50 g mixed greens"
+    ],
+    "preparing_time": "15 min",
+    "calories": "200 calories"
+  },
+  {
+    "recipe_image": "https://s9.gifyu.com/images/SUUej.jpg",
+    "recipe_id": 5,
+    "recipe_name": "Grilled Salmon with Lemon Herb Butter",
+    "short_description": "Deliciously tender grilled salmon fillets topped with zesty lemon herb butter.",
+    "ingredients": [
+      "4 salmon fillets",
+      "50 g butter",
+      "1 lemon",
+      "2 cloves garlic"
+    ],
+    "preparing_time": "25 min",
+    "calories": "320 calories"
+  },
+  {
+    "recipe_image": "https://s9.gifyu.com/images/SUUeR.jpg",
+    "recipe_id": 6,
+    "recipe_name": "Decadent Chocolate Cake",
+    "short_description": "Indulge in this rich and moist chocolate cake that melts in your mouth.",
+    "ingredients": [
+      "200 g flour",
+      "150 g sugar",
+      "100 g cocoa powder",
+      "150 g butter"
+    ],
+    "preparing_time": "50 min",
+    "calories": "400 calories"
+  }
+]
