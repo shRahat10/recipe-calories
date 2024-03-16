@@ -50,11 +50,11 @@ function App() {
   return (
     <div className='lexend max-w-[1440px] mx-auto px-3 lg:px-20 mb-20 space-y-20'>
       <Header></Header>
-      <div className=" text-center space-y-4">
+      <div className=" flex flex-col justify-center items-center space-y-4">
         <h1 className=" text-4xl font-semibold">Our Recipes</h1>
-        <p>Indulge in our diverse array of meticulously crafted recipes, each designed to inspire and delight your palate.</p>
+        <p className=' text-center w-96'>Indulge in our diverse array of meticulously crafted recipes, each designed to inspire and delight your palate.</p>
       </div>
-      <div className=' flex flex-col justify-center items-center xl:items-start gap-5 xl:grid grid-cols-8'>
+      <div className=' flex flex-col justify-center items-center lg:items-start gap-5 lg:grid grid-cols-8'>
         <div className=" col-span-5">
           <Recipes handleWantCook={handleWantCook}></Recipes>
         </div>
