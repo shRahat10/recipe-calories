@@ -22,7 +22,7 @@ const WantCook = ({ wantCook, handleCurrentlyCooking }) => {
                             <td>{recipe.preparing_time} minutes</td>
                             <td>{recipe.calories} calories</td>
                             <td>
-                                <button onClick={() => handleCurrentlyCooking(recipe, recipe.recipe_id)} className=" xl:px-4 w-9 xl:w-fit h-9 bg-[#0BE58A] text-black font-bold rounded-full lg: rounded-2xl flex justify-center items-center">
+                                <button onClick={() => handleCurrentlyCooking(recipe, recipe.recipe_id)} className=" xl:px-4 w-9 xl:w-fit h-9 bg-[#0BE58A] text-black font-bold rounded-full lg:rounded-2xl flex justify-center items-center">
                                     <p className=" hidden xl:flex">Preparing</p>
                                     <img className=" flex xl:hidden" src="../../../public/images/Cooking.png" alt="" />
                                 </button>
