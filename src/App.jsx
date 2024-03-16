@@ -46,7 +46,7 @@ function App() {
   }
 
   return (
-    <div className='lexend max-w-[1440px] mx-20 space-y-20'>
+    <div className='lexend max-w-[1440px] mx-3 lg:mx-20 mb-20 space-y-20'>
       <Header></Header>
       <div className=" text-center space-y-4">
         <h1 className=" text-4xl font-semibold">Our Recipes</h1>

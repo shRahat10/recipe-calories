@@ -2,14 +2,14 @@ const CurrentlyCooking = ({ currentlyCooking, totalTime, totalCalories }) => {
 
     return (
         <div className=" space-y-5 mt-10">
-            <h1 className=" text-2xl text-center font-bold">Want to cook: {currentlyCooking.length}</h1>
+            <h1 className=" text-2xl text-center font-bold">Currently Cooking: {currentlyCooking.length}</h1>
             <hr />
             <table className=' w-full'>
-                <tr className=" py-4">
-                    <th className=" w-3"></th>
-                    <th>Name</th>
-                    <th>Time</th>
-                    <th>Calories</th>
+                <tr className=" py-4 font-bold">
+                    <td className=" w-3"></td>
+                    <td>Name</td>
+                    <td>Time</td>
+                    <td>Calories</td>
                 </tr>
                 {
                     currentlyCooking.map((recipe, idx) =>

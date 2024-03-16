@@ -3,14 +3,14 @@ const WantCook = ({ wantCook, handleCurrentlyCooking }) => {
     return (
         <div className=" space-y-5 mt-10">
             <h1 className=" text-2xl text-center font-bold">Want to cook: {wantCook.length}</h1>
-            <hr/>
+            <hr />
             <table className=' w-full'>
-                <tr className=" py-4">
-                    <th className=" w-3"></th>
-                    <th>Name</th>
-                    <th>Time</th>
-                    <th>Calories</th>
-                    <th></th>
+                <tr className=" py-4 font-bold">
+                    <td className=" w-3"></td>
+                    <td>Name</td>
+                    <td>Time</td>
+                    <td>Calories</td>
+                    <td></td>
                 </tr>
                 {
                     wantCook.map((recipe, idx) =>
@@ -20,7 +20,10 @@ const WantCook = ({ wantCook, handleCurrentlyCooking }) => {
                             <td>{recipe.preparing_time} minutes</td>
                             <td>{recipe.calories} calories</td>
                             <td>
-                                <button onClick={() => handleCurrentlyCooking(recipe, recipe.recipe_id)} className=" w-28 h-9 bg-[#0BE58A] text-black font-bold rounded-[30px]">Preparing</button>
+                                <button onClick={() => handleCurrentlyCooking(recipe, recipe.recipe_id)} className=" lg:px-4 w-9 lg:w-fit h-9 bg-[#0BE58A] text-black font-bold rounded-full lg:rounded-[30px] flex justify-center items-center">
+                                    <p className=" hidden lg:flex">Preparing</p>
+                                    <img className=" flex lg:hidden" src="../../../public/images/Cooking.png" alt="" />
+                                </button>
                             </td>
                         </tr>
                     )
