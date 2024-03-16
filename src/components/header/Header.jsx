@@ -31,7 +31,7 @@ const Header = () => {
                             <defs />
                             <path id="Vector" d="M18 18L12.8 12.8M14.99 7.49C14.99 5.51 14.2 3.6 12.8 2.19C11.39 0.78 9.48 -0.01 7.49 -0.01C5.51 -0.01 3.6 0.78 2.19 2.19C0.78 3.6 -0.01 5.51 -0.01 7.49C-0.01 9.48 0.78 11.39 2.19 12.8C3.6 14.2 5.51 14.99 7.49 14.99C9.48 14.99 11.39 14.2 12.8 12.8C14.2 11.39 14.99 9.48 14.99 7.49Z" stroke="#150B2B" strokeOpacity="0.700000" strokeWidth="1.500000" strokeLinejoin="round" />
                         </svg>
-                        <input className=" bg-transparent" type="text" placeholder="Search" />
+                        <input className=" bg-transparent border-none outline-none" type="text" placeholder="Search" />
                     </div>
                     <svg width="48.000000" height="48.000000" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                         <defs>
