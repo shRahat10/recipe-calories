@@ -40,9 +40,9 @@ function App() {
 
     const newTotalTime = totalTime + recipe.preparing_time
     setTotalTime(newTotalTime)
-    const newTotalCalories =  totalCalories + recipe.calories
+    const newTotalCalories = totalCalories + recipe.calories
     setTotalCalories(newTotalCalories)
-    
+
   }
 
   return (

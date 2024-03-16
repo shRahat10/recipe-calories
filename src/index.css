@@ -8,7 +8,10 @@
     font-family: "Lexend", sans-serif;
   }
 
+th{
+  padding: 10px 10px ;
+}
 td{
-  padding: 0 10px ;
+  padding: 5px 10px ;
 }
 
