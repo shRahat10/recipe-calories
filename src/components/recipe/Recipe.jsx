@@ -1,5 +1,7 @@
+import PropTypes from 'prop-types';
+
 const Recipe = ({ recipe, handleWantCook }) => {
-    const { recipe_image, recipe_id, recipe_name, short_description, ingredients, preparing_time, calories } = recipe;
+    const { recipe_image, recipe_name, short_description, ingredients, preparing_time, calories } = recipe;
 
     return (
         <div className=" w-full h-[684px] p-6 space-y-4 border rounded-xl">
@@ -37,5 +39,10 @@ const Recipe = ({ recipe, handleWantCook }) => {
         </div>
     );
 };
+
+Recipe.propTypes = {
+    recipe: PropTypes.object,
+    handleWantCook: PropTypes.func,
+}
 
 export default Recipe;

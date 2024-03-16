@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const WantCook = ({ wantCook, handleCurrentlyCooking }) => {
 
     return (
@@ -32,5 +34,10 @@ const WantCook = ({ wantCook, handleCurrentlyCooking }) => {
         </div >
     );
 };
+
+WantCook.propTypes = {
+    wantCook: PropTypes.object,
+    handleCurrentlyCooking: PropTypes.func
+}
 
 export default WantCook;
