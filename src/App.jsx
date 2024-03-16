@@ -27,6 +27,8 @@ function App() {
     flag = true
   }
 
+  const [totalTime, setTotalTime] = useState(0);
+  const [totalCalories, setTotalCalories] = useState(0);
   const [currentlyCooking, setCurrentlyCooking] = useState([]);
 
   const handleCurrentlyCooking = (recipe, recipe_id) => {
@@ -36,6 +38,11 @@ function App() {
     const remainingWantCook = wantCook.filter(filterWantCook => filterWantCook.recipe_id !== recipe_id);
     setWantCook(remainingWantCook);
 
+    const newTotalTime = totalTime + recipe.preparing_time
+    setTotalTime(newTotalTime)
+    const newTotalCalories =  totalCalories + recipe.calories
+    setTotalCalories(newTotalCalories)
+    
   }
 
   return (
@@ -49,7 +56,7 @@ function App() {
         <Recipes handleWantCook={handleWantCook}></Recipes>
         <div className=" col-span-3 border rounded-xl">
           <WantCook wantCook={wantCook} handleCurrentlyCooking={handleCurrentlyCooking}></WantCook>
-          <CurrentlyCooking currentlyCooking={currentlyCooking}></CurrentlyCooking>
+          <CurrentlyCooking currentlyCooking={currentlyCooking} totalTime={totalTime} totalCalories={totalCalories}></CurrentlyCooking>
         </div>
       </div>
     </div>

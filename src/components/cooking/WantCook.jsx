@@ -16,8 +16,8 @@ const WantCook = ({ wantCook, handleCurrentlyCooking }) => {
                         wantCook.map((recipe, idx) =>
                             <tr className=" bg-slate-100 " key={idx}>
                                 <td>{recipe.recipe_name}</td>
-                                <td>{recipe.preparing_time}</td>
-                                <td>{recipe.calories}</td>
+                                <td>{recipe.preparing_time} minutes</td>
+                                <td>{recipe.calories} calories</td>
                                 <td>
                                     <button onClick={() => handleCurrentlyCooking(recipe, recipe.recipe_id)} className=" w-28 h-9 bg-[#0BE58A] text-black font-bold rounded-[50px]">Preparing</button>
                                 </td>

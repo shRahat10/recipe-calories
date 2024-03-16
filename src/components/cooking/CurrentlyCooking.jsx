@@ -1,4 +1,4 @@
-const CurrentlyCooking = ({ currentlyCooking }) => {
+const CurrentlyCooking = ({ currentlyCooking, totalTime, totalCalories }) => {
     
     return (
         <div>
@@ -16,11 +16,19 @@ const CurrentlyCooking = ({ currentlyCooking }) => {
                         currentlyCooking.map((cooking, idx) =>
                             <tr className=" bg-slate-100 " key={idx}>
                                 <td>{cooking.recipe_name}</td>
-                                <td>{cooking.preparing_time}</td>
-                                <td>{cooking.calories}</td>
+                                <td>{cooking.preparing_time} minutes</td>
+                                <td>{cooking.calories} calories</td>
                             </tr>
                         )
                     }
+                    <tr>
+                        <td>Total Time = </td>
+                        <td>Total Calories = </td>
+                    </tr>
+                    <tr>
+                        <td>{totalTime} minutes</td>
+                        <td>{totalCalories} calories</td>
+                    </tr>
                 </tbody>
             </table>
         </div>

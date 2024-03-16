@@ -10,8 +10,8 @@
       "200 g basil leaves",
       "400 g mushroom"
     ],
-    "preparing_time": "45 min",
-    "calories": "380 calories"
+    "preparing_time": 45,
+    "calories": 380
   },
   {
     "recipe_image": "https://s9.gifyu.com/images/SUUeC.jpg",
@@ -24,8 +24,8 @@
       "150 g bell peppers",
       "100 g snap peas"
     ],
-    "preparing_time": "20 min",
-    "calories": "250 calories"
+    "preparing_time": 20,
+    "calories": 250
   },
   {
     "recipe_image": "https://s9.gifyu.com/images/SUUe0.jpg",
@@ -38,8 +38,8 @@
       "200 g canned tomatoes",
       "100 g onion"
     ],
-    "preparing_time": "60 min",
-    "calories": "450 calories"
+    "preparing_time": 60,
+    "calories": 450
   },
   {
     "recipe_image": "https://s9.gifyu.com/images/SUUe8.jpg",
@@ -52,8 +52,8 @@
       "100 g cucumber",
       "50 g mixed greens"
     ],
-    "preparing_time": "15 min",
-    "calories": "200 calories"
+    "preparing_time": 15,
+    "calories": 200
   },
   {
     "recipe_image": "https://s9.gifyu.com/images/SUUej.jpg",
@@ -66,8 +66,8 @@
       "1 lemon",
       "2 cloves garlic"
     ],
-    "preparing_time": "25 min",
-    "calories": "320 calories"
+    "preparing_time": 25,
+    "calories": 320
   },
   {
     "recipe_image": "https://s9.gifyu.com/images/SUUeR.jpg",
@@ -80,7 +80,7 @@
       "100 g cocoa powder",
       "150 g butter"
     ],
-    "preparing_time": "50 min",
-    "calories": "400 calories"
+    "preparing_time": 50,
+    "calories": 400
   }
 ]
