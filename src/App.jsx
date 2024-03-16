@@ -1,4 +1,6 @@
 import './App.css'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Header from './components/header/Header'
 import Recipes from './components/recipe/Recipes'
 import WantCook from './components/cooking/WantCook'
@@ -22,7 +24,7 @@ function App() {
       setWantCook(newWantCook);
     }
     else {
-      // toast throw korte hbe
+      toast.error('Recipe already added to the list');
     }
     flag = true
   }
@@ -61,6 +63,7 @@ function App() {
           <CurrentlyCooking currentlyCooking={currentlyCooking} totalTime={totalTime} totalCalories={totalCalories}></CurrentlyCooking>
         </div>
       </div>
+      <ToastContainer />
     </div>
   )
 }
