@@ -48,7 +48,7 @@ const Header = () => {
                 </div>
             </nav>
             <section>
-                <div className="space-y-10 w-full h-fit py-14 px-2 lg:px-44 rounded-3xl text-center flex flex-col justify-center items-center bg-cover bg-center bg-no-repeat text-white relative" style={{ backgroundImage: "url('../../public/images/banner.jpg')" }}>
+                <div className="space-y-10 w-full h-fit xl:h-[700px] py-14 px-2 lg:px-44 rounded-3xl text-center flex flex-col justify-center items-center bg-cover bg-center bg-no-repeat text-white relative" style={{ backgroundImage: "url('../../public/images/banner.jpg')" }}>
                     <div className="absolute inset-0 rounded-3xl bg-gradient-to-t from-[#150B2B] to-[#150b2b48] opacity-60"></div>
                     <h1 className="text-xl lg:text-5xl font-bold relative z-10">Uncover Culinary Mastery Your Personalized Cooking Journey Begins Here!</h1>
                     <p className="relative z-10">Elevate your culinary skills with our personalized cooking classes! Explore flavors, techniques, and create unforgettable dishes tailored just for you.</p>
