@@ -1,37 +1,40 @@
 const CurrentlyCooking = ({ currentlyCooking, totalTime, totalCalories }) => {
-    
+
     return (
-        <div>
-            <h1>Currently cooking: {currentlyCooking.length}</h1>
-            <table className=" table-auto">
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Time</th>
-                        <th>Calories</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {
-                        currentlyCooking.map((cooking, idx) =>
-                            <tr className=" bg-slate-100 " key={idx}>
-                                <td>{cooking.recipe_name}</td>
-                                <td>{cooking.preparing_time} minutes</td>
-                                <td>{cooking.calories} calories</td>
-                            </tr>
-                        )
-                    }
-                    <tr>
-                        <td>Total Time = </td>
-                        <td>Total Calories = </td>
-                    </tr>
-                    <tr>
-                        <td>{totalTime} minutes</td>
-                        <td>{totalCalories} calories</td>
-                    </tr>
-                </tbody>
+        <div className=" space-y-5">
+            <h1 className=" text-2xl text-center font-bold">Want to cook: {currentlyCooking.length}</h1>
+            <hr />
+            <table className=' w-full'>
+                <tr className=" py-4">
+                    <th className=" w-3"></th>
+                    <th>Name</th>
+                    <th>Time</th>
+                    <th>Calories</th>
+                </tr>
+                {
+                    currentlyCooking.map((recipe, idx) =>
+                        <tr className=" bg-slate-100 border-b-2 border-gray-300 " key={idx}>
+                            <td>{idx + 1}</td>
+                            <td>{recipe.recipe_name}</td>
+                            <td>{recipe.preparing_time} minutes</td>
+                            <td>{recipe.calories} calories</td>
+                        </tr>
+                    )
+                }
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Total Time = </td>
+                    <td>Total Calories = </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>{totalTime} minutes</td>
+                    <td>{totalCalories} calories</td>
+                </tr>
             </table>
-        </div>
+        </div >
     );
 };
 

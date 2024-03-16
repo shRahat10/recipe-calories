@@ -10,6 +10,7 @@ const WantCook = ({ wantCook, handleCurrentlyCooking }) => {
                     <th>Name</th>
                     <th>Time</th>
                     <th>Calories</th>
+                    <th></th>
                 </tr>
                 {
                     wantCook.map((recipe, idx) =>
